@@ -207,8 +207,9 @@ endif
         inoremap <C-d> <Delete>
         " Command mode shortcut
         cnoremap <C-h> <BS>
-        cnoremap <C-j> <Down>
-        cnoremap <C-k> <Up>
+        " see is.vim
+        " cnoremap <C-j> <Down>
+        " cnoremap <C-k> <Up>
         cnoremap <C-b> <Left>
         cnoremap <C-f> <Right>
         cnoremap <C-a> <Home>
