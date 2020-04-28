@@ -133,7 +133,7 @@ endif
 
 if get(g:, 'vim_better_default_enable_folding', 1)
   set foldenable
-  set foldmarker={,}
+  " set foldmarker={,}
   set foldlevel=0
   set foldmethod=marker
   " set foldcolumn=3
