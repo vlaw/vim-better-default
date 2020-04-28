@@ -217,6 +217,9 @@ endif
         " jj | escaping
         inoremap jj <Esc>
         cnoremap jj <C-c>
+        inoremap jk <Esc>
+        cnoremap jk <C-c>
+
         " Quit visual mode
         vnoremap v <Esc>
         " Move to the start of line
