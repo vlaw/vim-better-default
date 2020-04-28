@@ -30,7 +30,7 @@ if !has('nvim')
   set hlsearch                   " Highlight search terms
   set incsearch                  " Find as you type search
   set laststatus=2               " Always show status line
-  set mouse=a                    " Automatically enable mouse usage
+  " set mouse=a                    " Automatically enable mouse usage
   set smarttab                   " Smart tab
   set ttyfast                    " Faster redrawing
   set viminfo+=!                 " Viminfo include !
