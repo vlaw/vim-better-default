@@ -156,8 +156,10 @@ highlight clear SignColumn  " SignColumn should match background
 " highlight clear LineNr      " Current line number row will have same background color in relative mode
 
 if has('unnamedplus')
+  " When possible use + register for copy-paste
   set clipboard=unnamedplus,unnamed
 else
+  " On mac and Windows, use * register for copy-paste
   set clipboard+=unnamed
 endif
 
