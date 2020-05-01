@@ -2,11 +2,12 @@
 " Maintainer:   Liu-Cheng Xu <https://github.com/liuchengxu>
 " Version:      1.0
 " vim: et ts=2 sts=2 sw=2
+" vim: set tw=78 foldenable foldmethod=syntax foldmarker={,} foldlevel=0 :
 
 scriptencoding utf-8
 
 if &compatible || exists('g:loaded_vim_better_default')
-   finish
+  finish
 endif
 let g:loaded_vim_better_default = 1
 
@@ -320,6 +321,4 @@ endif
 " }
 
 let &cpo = s:save_cpo
-unlet s:save_cpo 
-
-" vim: set ts=2 sw=2 tw=78 et fdm={,}:
+unlet s:save_cpo
