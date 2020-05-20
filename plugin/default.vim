@@ -141,12 +141,12 @@ if get(g:, 'vim_better_default_enable_folding', 1)
   set foldlevelstart=99
 endif
 
-set background=dark         " Assume dark background
-set cursorline              " Highlight current line
-set fileformats=unix,dos,mac        " Use Unix as the standard file type
-set number                  " Line numbers on
-set relativenumber          " Relative numbers on
-set fillchars=stl:\ ,stlnc:\ ,fold:\ ,vert:│
+set background=dark          " Assume dark background
+set cursorline               " Highlight current line
+set fileformats=unix,dos,mac " Use Unix as the standard file type
+set number                   " Line numbers on
+set relativenumber           " Relative numbers on
+" set fillchars=stl:\ ,stlnc:\ ,fold:\ ,vert:│
 
 " Annoying temporary files
 set directory=/tmp//,.
@@ -229,9 +229,9 @@ endif
         " Quit visual mode
         vnoremap v <Esc>
         " Move to the start of line
-        nnoremap H ^
+        " nnoremap H ^
         " Move to the end of line
-        nnoremap L $
+        " nnoremap L $
         " Redo
         nnoremap U <C-r>
         " In the quickfix window, <CR> is used to jump to the error under the
